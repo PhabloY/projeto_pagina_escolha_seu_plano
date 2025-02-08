@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #0c1014;
     color: white;
     width: 90%;
     max-width: 960px;
@@ -24,6 +24,7 @@ body{
 .header__logo{
     font-size: 36px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .header__nav ul{
@@ -37,4 +38,79 @@ body{
     color: white;
     text-decoration: none;
     padding: 14px;
+    border-radius: 6px;
+}
+
+.header__nav a:hover{
+    text-decoration: underline;
+}
+
+a.header__nav--active{
+    background-color: #cbe300;
+    color: #0c1014;
+    pointer-events: none;
+    /* cursor: default; */
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+    flex-grow: 1;
+    padding-bottom: 50px;
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-plan__title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.pricing-plan p{
+    margin-top: 0;
+}
+
+.pricing-plan__price{
+    font-size: 32px;
+}
+
+.pricing-plan__features{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.pricing-plan__features li::marker{
+    color:#cbe300;
+}
+
+.pricing-plan__cta{
+    text-decoration: none;
+    color: #0c1014;
+    background-color: #cbe300;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.pricing-plan__cta:hover{
+    outline: 2px solid #cbe300;
+    background-color: transparent;
+    color: white;
 }
