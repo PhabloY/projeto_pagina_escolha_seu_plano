@@ -8,7 +8,7 @@ Este é um projeto de Pricing Cards com três planos: Essencial, Premium e Gold.
 
 ## 📷 Pré-visualização
 
-![Preview](https://imgur.com/a/UEdgXe8)
+![Preview](https://i.imgur.com/mRpNBTv.png)
 
 ## 🚀 Como usar
 
